@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert Number</title>
+    <link rel="stylesheet" href="stylesheets/convert.css">
+</head>
+<body>
+<h1>Number Conversion</h1>
+<img src="images/conversion.jpg">
+<form action="/convert" method="POST">
+    <label for="value">Enter value:</label><br>
+    <input type="text" id="value" name="value"><br><br>
+
+    <label for="base">Base of the value (2-100):</label><br>
+    <input type="number" id="base" name="base" min="2" max="100"><br><br>
+
+    <label for="convertTo">Convert to base (2-100):</label><br>
+    <input type="number" id="convertTo" name="convertTo" min="2" max="100"><br><br>
+
+    <button type="submit">Convert</button>
+</form>
+</body>
+</html>
