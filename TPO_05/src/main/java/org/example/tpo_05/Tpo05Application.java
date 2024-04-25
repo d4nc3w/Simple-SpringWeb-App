@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Tpo05Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Tpo05Application.class, args);
+        SpringApplication.run(Tpo05Application.class, args); //localhost:8080/  <- (main page)
     }
 }
