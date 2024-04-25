@@ -121,3 +121,69 @@ The method converts the input value from the provided base to the target base us
 The method also provides representations of the input value in binary, octal, decimal, and hexadecimal formats.
 The method returns the conversion result and other representations in HTML format.
 
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Current Time</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+    </head>
+    
+    <body>
+    <header>
+        <h1>World Timer Site</h1>
+        <img src="images/earth.jpeg">
+        <div>
+            <form action="/current-time" method="GET">
+                <button type="submit">Check Current Time</button>
+            </form>
+            <form action="/current-year" method="GET">
+                <button type="submit">Check Current Year</button>
+            </form>
+            <form action="/convert.html" method="GET">
+                <button type="submit">Go to Convert site</button>
+            </form>
+        </div>
+    </header>
+    </body>
+    
+    </html>
+    
+This HTML file serves as the user interface for the "World Timer Site" and provides forms to navigate to different functionalities.
+The page contains a header with a title and an image of the Earth.
+There are three forms: one for checking the current time, another for checking the current year, and a third for navigating to the convert site.
+Each form uses a button to submit the request to the appropriate endpoint.
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Convert Number</title>
+        <link rel="stylesheet" href="stylesheets/convert.css">
+    </head>
+    
+    <body>
+        <h1>Number Conversion</h1>
+        <img src="images/conversion.jpg">
+        <form action="/convert" method="POST">
+            <label for="value">Enter value:</label><br>
+            <input type="text" id="value" name="value"><br><br>
+    
+            <label for="base">Base of the value (2-100):</label><br>
+            <input type="number" id="base" name="base" min="2" max="100"><br><br>
+    
+            <label for="convertTo">Convert to base (2-100):</label><br>
+            <input type="number" id="convertTo" name="convertTo" min="2" max="100"><br><br>
+    
+            <button type="submit">Convert</button>
+        </form>
+    </body>
+    
+    </html>
+
+This HTML file serves as the user interface for the "Number Conversion" functionality.
+The page contains a title and an image related to conversion.
+The form allows users to enter a value, the base of the value, and the base to convert to, using input fields.
+After filling in the required details, the user can submit the form to the /convert endpoint using a POST request.
