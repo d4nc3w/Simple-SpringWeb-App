@@ -187,3 +187,55 @@ This HTML file serves as the user interface for the "Number Conversion" function
 The page contains a title and an image related to conversion.
 The form allows users to enter a value, the base of the value, and the base to convert to, using input fields.
 After filling in the required details, the user can submit the form to the /convert endpoint using a POST request.
+    
+    body {
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 20px;
+    }
+    
+    img {
+        max-width: 50%;
+    }
+    
+    form {
+        margin-top: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+This CSS file provides styling for the HTML files, specifically for the "World Timer Site."
+The body style sets the text alignment to center.
+The h1 style provides margin at the top.
+The img style limits the image width to 50%.
+The form style centers the form, sets its width, and adds margin at the top.
+
+    body {
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 20px;
+    }
+    
+    img {
+        max-width: 50%;
+    }
+    
+    form {
+        margin-top: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+This CSS file provides styling for the HTML file related to the "Number Conversion" functionality.
+The body style sets the text alignment to center.
+The h1 style provides margin at the top.
+The img style limits the image width to 50%.
+The form style centers the form, sets its width, and adds margin at the top.
